@@ -1,0 +1,322 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{longtable}
+\usepackage{graphics}
+\usepackage[document]{ragged2e}
+\usepackage[a4paper, left=1.5cm]{geometry}
+
+\begin{document}
+
+\newcommand\Que[2]{%
+   \begin{samepage}
+   \leavevmode\par
+   \noindent
+   Q.#1 --- #2\par
+   \end{samepage}}
+
+\newcommand\Ans[2][]{%
+   \begin{samepage}
+    \leavevmode\par\noindent
+   {\leftskip37pt
+    A --- \textbf{#1}#2\par}
+   \end{samepage}}
+
+\Que{1}{Configuration of the device group can best be understood
+   in terms of what is happening ``under the hood'' (i.e.,
+   beneath the surface, or behind the interface which the GUI
+   provides). Describe the activities ``under the hood'' in
+terms which you have learnt in your study of the OSI 7-layer
+model.}
+\Ans{
+So, firstly, it is critical to notice that this completely
+depends on what Ostinato does "under the hood". Specifically, I
+would like to point out that Ostinato itself is an application
+running in a Linux virtual machine which is virtually connected
+to a docker container on the same machine. This of course
+introduces another level of complexity which I do not believe is
+feasible to consider here.
+
+Also, I believe it is also not feasible to describe what
+Ostinato precisely does internally as it requires an in depth
+knowledge of the Ostinato codebase.
+
+Having said this, I will restrict myself to a very shallow
+explanation.
+
+The two main OSI layers which concern the creation of device
+groups are the Data Link (2nd) Layer and the Network (3rd)
+Layer.
+
+When we create a device group we are forced to give that device
+group a base MAC (Media Access Control) address. We have to pick
+also the number of devices which the device group will have. In
+the case that there are more than one devices, Ostinato will
+give the rest of the devices MAC addresses based on an address
+offset which we specify. The MAC addresses are then used by
+Ostinato to distinguish between these virtual devices at layer
+2.
+
+\begin{displayquote}
+\textbf{Note}: The uniqueness of the MAC addresses used is
+responsibility of the individual using Ostinato, although
+Ostinato seems to provide random MAC address which are unlikely
+to be already in use.
+\end{displayquote}
+
+After we provide MAC addresses to the devices in the device
+group we also have the option of choosing an Internet Protocol
+(IP) version and provide a base IP address and an address offset
+to give each device a different IP address. This essentially
+sets up the virtual devices for layer 3 functionality.
+
+I think the above is a sufficient answer as delving into the
+actual details of how these things are implemented is not
+trivial and would require an incredibly large amount of work.
+}
+
+\Que{2.1}{Count the number of packets that you have captured and
+compare this with the setting in the stream configured on the
+packet generator.}
+\begin{center}
+\begin{longtable}{|l|l|l|l|l|l|p{9em}|}
+\caption{A sample long table.} \\
+\hline 
+\multicolumn{1}{|c|}{\textbf{No.}}&
+\multicolumn{1}{c|}{\textbf{Time}}&
+\multicolumn{1}{c|}{\textbf{Source}}&
+\multicolumn{1}{c|}{\textbf{Destination}}&
+\multicolumn{1}{c|}{\textbf{Protocol}}&
+\multicolumn{1}{c|}{\textbf{Length}}&
+\multicolumn{1}{c|}{\textbf{Info}}\\
+\hline 
+\endfirsthead
+
+\multicolumn{7}{c}{\tablename\ \thetable{} -- continued from previous page}\\
+\hline
+\multicolumn{1}{|c|}{\textbf{No.}}&
+\multicolumn{1}{c|}{\textbf{Time}}&
+\multicolumn{1}{c|}{\textbf{Source}}&
+\multicolumn{1}{c|}{\textbf{Destination}}&
+\multicolumn{1}{c|}{\textbf{Protocol}}&
+\multicolumn{1}{c|}{\textbf{Length}}&
+\multicolumn{1}{c|}{\textbf{Info}}\\
+\hline 
+\endhead
+
+\hline
+\multicolumn{7}{|c|}{{Continued on next page}}\\
+\hline
+\endfoot
+
+\hline
+\hline
+\endlastfoot
+
+486 & 4617.638757 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 487) \\
+487 & 4617.638893 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 486) \\
+488 & 4618.638764 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 489) \\
+489 & 4618.638848 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 488) \\
+490 & 4619.638761 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 491) \\
+491 & 4619.638880 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 490) \\
+492 & 4620.638772 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 493) \\
+493 & 4620.638890 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 492) \\
+494 & 4621.638731 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 495) \\
+495 & 4621.638861 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 494) \\
+496 & 4622.638714 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 497) \\
+497 & 4622.638914 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 496) \\
+500 & 4623.638729 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 501) \\
+501 & 4623.638837 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 500) \\
+502 & 4624.638727 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 503) \\
+503 & 4624.638831 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 502) \\
+504 & 4625.638735 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 505) \\
+505 & 4625.638858 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 504) \\
+506 & 4626.638725 & 192.168.0.10 & 192.168.0.1 & ICMP & 60 & Echo (ping)
+request id=0x04d2, seq=0/0, ttl=127 (reply in 507) \\
+507 & 4626.638833 & 192.168.0.1 & 192.168.0.10 & ICMP & 60 & Echo (ping)
+reply id=0x04d2, seq=0/0, ttl=64 (request in 506) \\
+\end{longtable}
+\end{center}
+\Ans{
+}
+
+\Que{2.2}{Write down the numbers (leftmost column) of the packets that have been generated by:
+\begin{itemize}
+\item the packet generator
+\item the DUT
+\end{itemize}
+}
+\Ans{Hello}
+
+\Que{2.3}{Use your answer to 2.2 to find the average
+inter-packet delay for the packets generated by the packet
+generator.}
+\Ans{Hello}
+
+\Que{3}{Repeat the exercises of question 3 with the new packet
+rate (2 pkt/s).}
+\Ans{Hello}
+
+\Que{4.1}{Expand the frame section and inspect it to find out
+the number of bytes captured by Wireshark from the link (``bytes
+on wire'').}
+\Ans{Hello}
+
+\Que{4.2}{Search for the minimum length of an Ethernet packet,
+and state it.}
+\Ans{Hello}
+
+\Que{4.3}{How does the number of bytes captured (which you found
+in (4.1)) compare with the minimum length of an Ethernet packet
+(which you looked up in (4.2))? Can you explain the difference?}
+\Ans{Hello}
+
+\Que{4.4}{Expand the Ethernet II section and write down the
+source MAC address and the destination MAC address.}
+\Ans{Hello}
+
+\Que{4.5}{Look up the source MAC address in the device group
+configured on the packet generator at the port group.}
+\Ans{Hello}
+
+\Que{4.6}{Compare what was found in 4.4 with what was found in
+4.5.}
+\Ans{Hello}
+
+\Que{4.7}{Inspect the Ethernet II section and find the field in
+that section which the receiver (the DUT) uses to identify the
+layer 3 entity which is to receive the Ethernet frame's
+payload.}
+\Ans{Hello}
+
+\Que{4.8}{Inspect the section below the Ethernet II section and:
+\begin{itemize}
+\item write down the source address and the destination address
+   that you see in this underlying section;
+\item compare the source address and the destination address
+   with what you have set up in the stream named ``ICMP Echo
+   Request Stream''.
+\item Look up the field named ``Total length'' in this section
+   and account for the difference between this number and the
+   number you have found in 4.1.
+\end{itemize}}
+\Ans{Hello}
+
+
+\Que{5}{For each packet, state source and destination IPv4
+address. Compare these latter two addresses with the IPv4
+address bound to alpine-1 eth0, and justify the outcome of your
+comparison.}
+\Ans{Hello}
+
+\Que{6}{Compare the packet(s) you capture on Switch1
+$\leftrightarrow$ alpine-2. State at least one difference
+between your output and that shown in Fig. 37, and explain it.}
+\Ans{Hello}
+
+
+\Que{7.1}{Present a screenshot that shows the packets you have
+captured on Switch1 $\leftrightarrow$ alpine-4.}
+\Ans{Hello}
+
+
+\Que{7.2}{For each packet, explain how it fits into the sequence that is generated as a result of running the
+packet stream you have configured on Ostinato.}
+\Ans{Hello}
+
+\Que{7.3}{Select the ICMP packet generated by Ostinato. Use a
+   tabular structure, exemplified by Fig. 39, to name
+   \textbf{all} the fields, for all the layers, in the ICMP
+   packet. For each field name, write a prefix to indicate which
+layer the field pertains to, e.g., L1 for layer 1, L2 for layer
+2, etc.}
+\Ans{Hello}
+
+\Que{8}{Explain why the packets captured on Switch1
+   $\leftrightarrow$ alpine-2 do not change between the point in
+   time just before running the packet stream on Ostinato, and
+   the point in time just after
+running it.}
+\Ans{Hello}
+
+\Que{9}{
+This concerns the dynamics of transmission using TCP. For each
+of the four cases (lossless, and packet loss at the rate of 1\%,
+3\% and 5\% respectively):
+\begin{enumerate}
+\item Plot a 1-s MA of the throughput, and
+\item calculate the average throughput
+\end{enumerate}}
+\Ans{Hello}
+
+\Que{10}{
+Consider the packet sequence pertaining to the lossless case.
+\begin{enumerate}
+\item List the flags (within square brackets) pertaining to the
+   first three packets.
+\item What part of connection establishment do the first three
+   packets pertain to?
+\item List the sequence (Seq=) and acknowledgement (Ack=)
+   numbers pertaining to the first three packets.
+\item Identify the maximum segment size which the two parties in
+   the connection state.
+\item Identify the range of packets involved in the data
+   transfer phase.
+\item Identify the packet(s) involved in the connection teardown
+   phase.
+\end{enumerate}
+
+\textbf{Show screenshots that allow a reader to validate your answers.}}
+
+\Ans{Hello}
+
+\Que{11}{
+Consider the packet sequence pertaining to the 5\% packet loss
+case. List \texttt{received\_file} on alpine-4 and compare its
+size with that of \texttt{large\_file}.
+
+\textbf{Show screenshots that allow a reader to validate your
+answers.}}
+\Ans{Hello}
+
+\Que{12}{
+Consider the packet sequence pertaining to the lossless case.
+\begin{enumerate}
+\item List \texttt{received\_file} on alpine-4 and compare its
+   size with that of \\ \texttt{large\_file}.
+\item Go to File->Export Packet Dissections, export the captured
+   packets as CSV and inspect the CSV file in Excel. How does
+   the number of octets sent (as you determine from the CSV
+   file) compare with the size of\\ \texttt{received\_file}?
+\item Inspect the first few packets in the UDP window and
+   identify the length of the UDP datagram (``Len''). How does
+   this compare with the Ethernet frame's MTU of 1500? Explain
+   any difference you observe.
+\end{enumerate}
+
+\textbf{Show screenshots that allow a reader to validate your answers.}}
+\Ans{Hello}
+
+\Que{13}{Explain the difference between your observations in 11
+and 12.1.}
+\Ans{Hello}
+\end{document}

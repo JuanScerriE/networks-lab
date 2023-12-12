@@ -639,13 +639,7 @@ that section which the receiver (the DUT) uses to identify the
 layer 3 entity which is to receive the Ethernet frame's
 payload.}
 \begin{ans}
-	In Question 4.2 the EtherType/Type
-	field is referenced. I also included a picture of the Ethernet Header of the
-	Request packet.
-	
-	The Type field is set to \texttt{0x0800} which refers to IPv4. Hence,
-	the receiver will understand that the Payload is an IPv4 packet
-	and it will be able to decode it
+	In Question 4.2 the EtherType field is referenced. The EtherType field specifies what type of payload the Ethernet frame contains. The EtherType in the frame of interest is set to \texttt{0x0800}, see Figure \ref{fig:eth2-header-for-q4.3}. \texttt{0x0800} identifies the payload inside the frame as an IPv4 packet. This gives the DUT the required information to properly decode the contents of the payload.
 \end{ans}
 
 \Que{4.8}{Inspect the section below the Ethernet II section and:
@@ -659,19 +653,123 @@ payload.}
    and account for the difference between this number and the
    number you have found in 4.1.
 \end{itemize}}
-% \Ans{Hello}
+
+\begin{ans}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{data/q4.8-ip-header.png}
+		\caption{The IPv4 header of the request packet under
+			inspection for Question 4.1.}
+		\label{fig:ip-header-for-q4.8}
+	\end{figure}
+	
+	Source IP Address = \texttt{192.168.0.10}
+	
+	Destination IP Address = \texttt{192.168.0.1}
+	
+	See Figure \ref{fig:ip-header-for-q4.8} to verify the above addresses.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{data/q4.8-stream-config.png}
+		\caption{The stream's IPv4 configuration in Ostinato for Question 4.8.}
+		\label{fig:stream-config-for-q4.8}
+	\end{figure}
+	
+	Additionally, the Total Length is 46 bytes, again see Figure \ref{fig:ip-header-for-q4.8}. This is precisely
+	what was described in Question 4.3. Again, the Ethernet header length is
+	14 bytes, and $14 + 46 = 60$ bytes as expected.
+	
+	Additionally, 20 of the 46 bytes are the IPv4 Header Length whilst the remaining 26 bytes are the actual ICMP Request.
+\end{ans}
 
 
 \Que{5}{For each packet, state source and destination IPv4
 address. Compare these latter two addresses with the IPv4
 address bound to alpine-1 eth0, and justify the outcome of your
 comparison.}
-% \Ans{Hello}
+
+\begin{ans}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{data/q5-capture1.png}
+		\caption{The Wireshark capture for phase 1, part 1, step 6.}
+		\label{fig:wireshark-capture1-q5}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{data/q5-capture2.png}
+		\caption{The Wireshark capture for phase 1, part 1, step 8.}
+		\label{fig:wireshark-capture2-q5}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{data/q5-capture3.png}
+		\caption{The Wireshark capture for phase 1, part 2, step 4.}
+		\label{fig:wireshark-capture3-q5}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{data/q5-capture4.png}
+		\caption{The Wireshark capture for phase 1, part 2, step 8.}
+		\label{fig:wireshark-capture4-q5}
+	\end{figure}
+	
+	The above four pictures are all the Wireshark captures as
+	specified in the lab sheet.
+	
+	All we have to do is notice that the addresses in use are
+	From Figure \ref{fig:wireshark-capture1-q5} it can be deduced
+	that \texttt{192.168.0.10} and \texttt{192.168.0.3} are the IP
+	addresses in use. These are the IP address of the virtual Ostinato
+	device and alpine-3 respectively.
+	
+	
+	\begin{note}
+		All the captures in Figures \ref{fig:wireshark-capture1-q5},
+		\ref{fig:wireshark-capture2-q5}, \ref{fig:wireshark-capture3-q5}
+		\& \ref{fig:wireshark-capture4-q5} were made over Hub1 $\leftrightarrow$
+		alpine-1. This exposes the nature of hubs as networking devices.
+		Hubs do not keep track of any form source and destination. Hubs
+		take a broad stroke approach and replay any communication they
+		receive into all of their connections.
+	\end{note}
+\end{ans}
 
 \Que{6}{Compare the packet(s) you capture on Switch1
 $\leftrightarrow$ alpine-2. State at least one difference
 between your output and that shown in Fig. 37, and explain it.}
-% \Ans{Hello}
+
+\begin{ans}
+	For this question all the steps described in
+	Phase 1, Part 2 were repeated. However, this time Port 1
+	(in Ostinato) was used and connections Switch1 $\leftrightarrow$
+	apline-2 and Swtich1 $\leftrightarrow$ apline-4 were monitored.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{data/q6-phase2-switch-to-alpine2-part1.pngg}
+		\caption{The Wireshark capture for phase 2, part 1.}
+		\label{fig:wireshark-capture4-q5}
+	\end{figure}
+	
+	![Switch to Apline 2 Part 1 for Question 6](data/q6-phase2-switch-to-alpine2-part1.png)
+	
+	![Switch to Apline 2 Part 2 for Question 6](data/q6-phase2-switch-to-alpine2-part2.png)
+	
+	Firstly, it is important to note that we only actually capture a
+	single packet on the Switch <-> Apline 2 connection as clearly
+	established by the pictures above, specifically Switch to Apline
+	2 Part 1 and Swithc to Apline 2 Part 2.
+	
+	Additionally, the only difference between my output and that
+	present in Fig. 37 of the lab sheet is the MAC address. However,
+	this could have also been made the same since the MAC address
+	can be set by the user of Ostinato.
+\end{ans}
 
 
 \Que{7.1}{Present a screenshot that shows the packets you have

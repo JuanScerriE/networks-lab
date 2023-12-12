@@ -204,6 +204,9 @@ INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
@@ -232,6 +235,7 @@ INPUT ./answerss.out
 INPUT ./answerss.out
 OUTPUT answerss.out
 OUTPUT answerss.pdf
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./data/q2.1-stream-settings.png
@@ -280,6 +284,12 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT ./data/q4.3-ethernet-header.png
+INPUT ./data/q4.3-ethernet-header.png
+INPUT ./data/q4.3-ethernet-header.png
+INPUT ./data/q4.5-device-group-config.png
+INPUT ./data/q4.5-device-group-config.png
+INPUT ./data/q4.5-device-group-config.png
 INPUT ./answerss.aux
 INPUT ./answerss.out
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
@@ -288,6 +298,8 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmri9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb

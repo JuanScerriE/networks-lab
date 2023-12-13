@@ -1,0 +1,36 @@
+defaultIndent: ""
+
+lookForAlignDelims:
+  tabular:
+    dontMeasure: 1
+  longtable:
+    dontMeasure: 1
+  tabularx:
+    dontMeasure: 1
+  # tabular:
+  #   dontMeasure:
+  #     -
+  #       regex: .*
+  #       applyTo: row
+  # longtable:
+  #   dontMeasure:
+  #     -
+  #       regex: .*
+  #       applyTo: row
+  # tabularx:
+  #   dontMeasure:
+  #     -
+  #       regex: .*
+  #       applyTo: row
+
+modifyLineBreaks:
+  textWrapOptions:
+    columns: 60
+    multipleSpacesToSingle: 1
+
+condenseMultipleBlankLinesInto: 1
+
+modifySpaces:
+  - match: '\s+'
+    replacement: ' '
+    ignoreInInlineMath: 1

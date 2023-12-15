@@ -1,61 +1,30 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Arch Linux)  (format=lualatex 2023.9.7)  13 DEC 2023 20:03
- system commands enabled.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.7)  14 DEC 2023 17:37
+entering extended mode
+ restricted \write18 enabled.
  file:line:error style messages enabled.
-**answerss.tex
-(./answerss.tex
+ %&-line parsing enabled.
+**/home/juan/Desktop/uni/compsci/network-cce2414/lab/tex-files/answerss.tex
+(/home/juan/Desktop/uni/compsci/network-cce2414/lab/tex-files/answerss.tex
 LaTeX2e <2022-11-01> patch level 1
-Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
-Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended collection.
-luaotfload | conf : Root cache directory is "/home/juan/.cache/texlive/texmf-var/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-resolved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2022-10-03.lua".
-Lua-only attribute luaotfload@noligature = 1
-luaotfload | init : Context OpenType loader version 3.120
-Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' in `hpack_filter'.
-Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
-Inserting `luaotfload.define_font' in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/juan/.cache/texlive/texmf-var/luatex-cache/generic/names".
-Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
-Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
-Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
-Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
-Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
-Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
-Inserting `luaotfload.cleanup_files' in `wrapup_run'.
-Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
-Inserting `luaotfload.glyphinfo' in `glyph_info'.
-Lua-only attribute luaotfload.letterspace_done = 3
-Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
-Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
-Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
-Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
-Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
-Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programming layer <2023-02-22>
-Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/juan/.cache/texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
-\c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
-\bibindent=\dimen139
+\bibindent=\dimen140
 ) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
- (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip50
 
@@ -65,21 +34,21 @@ Package: amstext 2021/08/26 v2.01 AMS text
  (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
-\ex@=\dimen140
+\ex@=\dimen141
 )) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen141
+\pmbraise@=\dimen142
 ) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count191
-LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count192
-\leftroot@=\count193
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count194
-\DOTSCASE@=\count195
+\classnum@=\count196
+\DOTSCASE@=\count197
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -89,30 +58,30 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen142
+\big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count196
+\macc@depth=\count198
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count197
+\c@MaxMatrixCols=\count199
 \dotsspace@=\muskip16
-\c@parentequation=\count198
-\dspbrk@lvl=\count199
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
 \tag@help=\toks17
-\row@=\count266
-\column@=\count267
-\maxfields@=\count268
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
 \andhelp@=\toks18
-\eqnshift@=\dimen143
-\alignsep@=\dimen144
-\tagshift@=\dimen145
-\tagwidth@=\dimen146
-\totwidth@=\dimen147
-\lineht@=\dimen148
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
 \@envbody=\toks19
 \multlinegap=\skip51
 \multlinetaggap=\skip52
@@ -121,7 +90,7 @@ LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count269
+\c@float@type=\count271
 \float@exts=\toks21
 \float@box=\box53
 \@float@everytoks=\toks22
@@ -132,32 +101,32 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip54
 \LTpre=\skip55
 \LTpost=\skip56
-\LTchunksize=\count270
-\LTcapwidth=\dimen149
+\LTchunksize=\count272
+\LTcapwidth=\dimen150
 \LT@head=\box55
 \LT@firsthead=\box56
 \LT@foot=\box57
 \LT@lastfoot=\box58
 \LT@gbox=\box59
-\LT@cols=\count271
-\LT@rows=\count272
-\c@LT@tables=\count273
-\c@LT@chunks=\count274
+\LT@cols=\count273
+\LT@rows=\count274
+\c@LT@tables=\count275
+\c@LT@chunks=\count276
 \LT@p@ftn=\toks23
 ) (/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: luatex.def on input line 149.
- (/usr/share/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+Package color Info: Driver file: pdftex.def on input line 149.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: luatex.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
  (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
@@ -173,22 +142,22 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
 )
-\lst@mode=\count275
+\lst@mode=\count277
 \lst@gtempboxa=\box60
 \lst@token=\toks25
-\lst@length=\count276
-\lst@currlwidth=\dimen150
-\lst@column=\count277
-\lst@pos=\count278
-\lst@lostspace=\dimen151
-\lst@width=\dimen152
-\lst@newlines=\count279
-\lst@lineno=\count280
-\lst@maxwidth=\dimen153
+\lst@length=\count278
+\lst@currlwidth=\dimen151
+\lst@column=\count279
+\lst@pos=\count280
+\lst@lostspace=\dimen152
+\lst@width=\dimen153
+\lst@newlines=\count281
+\lst@lineno=\count282
+\lst@maxwidth=\dimen154
  (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count281
-\lst@skipnumbers=\count282
+\c@lstnumber=\count283
+\lst@skipnumbers=\count284
 \lst@framebox=\box61
 ) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -219,7 +188,6 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks26
 ) (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -231,30 +199,17 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen154
-\Gin@req@width=\dimen155
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
 ) (/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 75.
-) (/usr/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
-Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
- (/usr/share/texmf-dist/tex/generic/catchfile/catchfile.sty
-Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
- (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))
-(/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-runsystem(uname -s > "answerss.w18")...executed
- (./answerss.w18)
-runsystem(rm -- "answerss.w18")...executed
-)
-\c@svg@param@lastpage=\count283
+\c@svg@param@lastpage=\count285
 \svg@box=\box62
-\c@svg@param@currpage=\count284
+\c@svg@param@currpage=\count286
 ) (/usr/share/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
  (/usr/share/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
@@ -262,9 +217,9 @@ Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color 
  (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ))) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen156
-\pgfutil@tempdimb=\dimen157
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
 ) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box63
 ) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -272,43 +227,43 @@ Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
  (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen158
-\pgf@y=\dimen159
-\pgf@xa=\dimen160
-\pgf@ya=\dimen161
-\pgf@xb=\dimen162
-\pgf@yb=\dimen163
-\pgf@xc=\dimen164
-\pgf@yc=\dimen165
-\pgf@xd=\dimen166
-\pgf@yd=\dimen167
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count285
-\c@pgf@countb=\count286
-\c@pgf@countc=\count287
-\c@pgf@countd=\count288
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count289
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count291
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-Driver file for pgf: pgfsys-luatex.def
- (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
-File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count290
-\pgfsyssoftpath@bigbuffer@items=\count291
+\pgfsyssoftpath@smallbuffer@items=\count292
+\pgfsyssoftpath@bigbuffer@items=\count293
 ) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -332,19 +287,25 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count292
+\c@section@level=\count294
 )
-\@linkdim=\dimen168
-\Hy@linkcounter=\count293
-\Hy@pagecounter=\count294
+\@linkdim=\dimen169
+\Hy@linkcounter=\count295
+\Hy@pagecounter=\count296
  (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 ) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count295
+\Hy@SavedSpaceFactor=\count297
  (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4177.
 Package hyperref Info: Link nesting OFF on input line 4182.
@@ -353,22 +314,21 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count296
-
-(/usr/share/texmf-dist/tex/latex/url/url.sty
+\c@Hy@tempcnt=\count298
+ (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen169
+\XeTeXLinkMargin=\dimen170
  (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count297
-\Field@Width=\dimen170
-\Fld@charsize=\dimen171
+\Fld@menulength=\count299
+\Field@Width=\dimen171
+\Fld@charsize=\dimen172
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -380,21 +340,19 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count298
-\c@Item=\count299
-\c@Hfootnote=\count300
+\Hy@abspage=\count300
+\c@Item=\count301
+\c@Hfootnote=\count302
 )
-Package hyperref Info: Driver (autodetected): hluatex.
- (/usr/share/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2023-02-07 v7.00v Hyperref driver for luaTeX
- (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-) (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+ (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count301
-\c@bookmark@seq@number=\count302
+\Fld@listcount=\count303
+\c@bookmark@seq@number=\count304
  (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -423,15 +381,15 @@ Package: ragged2e 2023/02/25 v3.4 ragged2e Package
 Package: bytefield 2021/08/17 v2.7 Network protocol diagrams
  (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count303
-\calc@Bcount=\count304
-\calc@Adimen=\dimen172
-\calc@Bdimen=\dimen173
+\calc@Acount=\count305
+\calc@Bcount=\count306
+\calc@Adimen=\dimen173
+\calc@Bdimen=\dimen174
 \calc@Askip=\skip72
 \calc@Bskip=\skip73
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count305
+\calc@Ccount=\count307
 \calc@Cskip=\skip74
 )
 \bytefield@height=\skip75
@@ -443,8 +401,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \units@tall=\skip80
 \units@high=\skip81
 \header@xpos=\skip82
-\c@header@val=\count306
-\c@max@header@val=\count307
+\c@header@val=\count308
+\c@max@header@val=\count309
 \curly@box=\box65
 \wordlabelr@start=\skip83
 \wordlabelr@end=\skip84
@@ -459,10 +417,10 @@ Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
  (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks34
-\XKV@tempa@toks=\toks35
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
 )
-\XKV@depth=\count308
+\XKV@depth=\count310
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -472,64 +430,130 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box67
 )
-\tc@llx=\dimen174
-\tc@lly=\dimen175
-\tc@urx=\dimen176
-\tc@ury=\dimen177
- (/usr/share/texmf-dist/tex/latex/adjustbox/tc-pgf.def
-File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
+\tc@llx=\dimen175
+\tc@lly=\dimen176
+\tc@urx=\dimen177
+\tc@ury=\dimen178
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen179
+\adjbox@Height=\dimen180
+\adjbox@Depth=\dimen181
+\adjbox@Totalheight=\dimen182
+\adjbox@pwidth=\dimen183
+\adjbox@pheight=\dimen184
+\adjbox@pdepth=\dimen185
+\adjbox@ptotalheight=\dimen186
+ (/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count311
+) (/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box68
+\sift@deathcycles=\count312
+\@vwid@loff=\dimen187
+\@vwid@roff=\dimen188
+)) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+ (/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+ (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen189
+\captionmargin=\dimen190
+\caption@leftmargin=\dimen191
+\caption@rightmargin=\dimen192
+\caption@width=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count313
+\c@continuedfloat=\count314
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count315
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count316
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count317
+\Gm@cntv=\count318
+\c@Gm@tempcnt=\count319
+\Gm@bindingoffset=\dimen197
+\Gm@wd@mp=\dimen198
+\Gm@odd@mp=\dimen199
+\Gm@even@mp=\dimen256
+\Gm@layoutwidth=\dimen257
+\Gm@layoutheight=\dimen258
+\Gm@layouthoffset=\dimen259
+\Gm@layoutvoffset=\dimen260
+\Gm@dimlist=\toks35
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2023/02/12 version 6.0.1 text color boxes
  (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen178
-\pgfmath@count=\count309
-\pgfmath@box=\box68
+\pgfmath@dimen=\dimen261
+\pgfmath@count=\count320
+\pgfmath@box=\box69
 \pgfmath@toks=\toks36
 \pgfmath@stack@operand=\toks37
 \pgfmath@stack@operation=\toks38
-) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count310
+) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count321
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen179
-\pgf@picmaxx=\dimen180
-\pgf@picminy=\dimen181
-\pgf@picmaxy=\dimen182
-\pgf@pathminx=\dimen183
-\pgf@pathmaxx=\dimen184
-\pgf@pathminy=\dimen185
-\pgf@pathmaxy=\dimen186
-\pgf@xx=\dimen187
-\pgf@xy=\dimen188
-\pgf@yx=\dimen189
-\pgf@yy=\dimen190
-\pgf@zx=\dimen191
-\pgf@zy=\dimen192
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen193
-\pgf@path@lasty=\dimen194
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen195
-\pgf@shorten@start@additional=\dimen196
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box69
-\pgf@hbox=\box70
-\pgf@layerbox@main=\box71
-\pgf@picture@serial@count=\count311
+\pgfpic=\box70
+\pgf@hbox=\box71
+\pgf@layerbox@main=\box72
+\pgf@picture@serial@count=\count322
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen197
+\pgflinewidth=\dimen280
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen198
-\pgf@pt@y=\dimen199
-\pgf@pt@temp=\dimen256
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -538,17 +562,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen257
+\pgfarrowsep=\dimen284
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen258
-\pgf@sys@shading@range@num=\count312
-\pgf@shadingcount=\count313
+\pgf@max=\dimen285
+\pgf@sys@shading@range@num=\count323
+\pgf@shadingcount=\count324
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box72
+\pgfexternal@startupbox=\box73
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -559,170 +583,94 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box73
+\pgfnodeparttextbox=\box74
 ) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen259
-\pgf@nodesepend=\dimen260
-)
-(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)))
-Package trimclip Info: No clipping driver 'tc-luatex.def' available.
-(trimclip)             Using fall-back PGF driver.
-)
-\adjbox@Width=\dimen261
-\adjbox@Height=\dimen262
-\adjbox@Depth=\dimen263
-\adjbox@Totalheight=\dimen264
-\adjbox@pwidth=\dimen265
-\adjbox@pheight=\dimen266
-\adjbox@pdepth=\dimen267
-\adjbox@ptotalheight=\dimen268
- (/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count314
-) (/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box74
-\sift@deathcycles=\count315
-\@vwid@loff=\dimen269
-\@vwid@roff=\dimen270
-)) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
- (/usr/share/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen271
-\captionmargin=\dimen272
-\caption@leftmargin=\dimen273
-\caption@rightmargin=\dimen274
-\caption@width=\dimen275
-\caption@indent=\dimen276
-\caption@parindent=\dimen277
-\caption@hangindent=\dimen278
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count316
-\c@continuedfloat=\count317
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: longtable package is loaded.
- (/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-))
-Package caption Info: New subtype `subfigure' on input line 239.
-\c@subfigure=\count318
-Package caption Info: New subtype `subtable' on input line 239.
-\c@subtable=\count319
-) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count320
-\Gm@cntv=\count321
-\c@Gm@tempcnt=\count322
-\Gm@bindingoffset=\dimen279
-\Gm@wd@mp=\dimen280
-\Gm@odd@mp=\dimen281
-\Gm@even@mp=\dimen282
-\Gm@layoutwidth=\dimen283
-\Gm@layoutheight=\dimen284
-\Gm@layouthoffset=\dimen285
-\Gm@layoutvoffset=\dimen286
-\Gm@dimlist=\toks39
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2023/02/12 version 6.0.1 text color boxes
- (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+)) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks40
-\verbatim@line=\toks41
+\every@verbatim=\toks39
+\verbatim@line=\toks40
 \verbatim@in@stream=\read3
 ) (/usr/share/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 ) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count323
+\etb@tempcnta=\count325
 )
 \tcb@titlebox=\box75
 \tcb@upperbox=\box76
 \tcb@lowerbox=\box77
 \tcb@phantombox=\box78
-\c@tcbbreakpart=\count324
-\c@tcblayer=\count325
-\c@tcolorbox@number=\count326
+\c@tcbbreakpart=\count326
+\c@tcblayer=\count327
+\c@tcolorbox@number=\count328
 \tcb@temp=\box79
 \tcb@temp=\box80
 \tcb@temp=\box81
 \tcb@temp=\box82
-) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count327
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count329
 \l__pdf_internal_box=\box83
 ) (./answerss.aux)
-\openout1 = answerss.aux
+\openout1 = `answerss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 103.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
-\scratchdimen=\dimen287
+\scratchcounter=\count330
+\scratchdimen=\dimen288
 \scratchbox=\box84
-\nofMPsegments=\count329
-\nofMParguments=\count330
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count331
-\MPscratchDim=\dimen288
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
-\everyMPtoPDFconversion=\toks43
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen289
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks42
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count334
-Package hyperref Info: Link coloring OFF on input line 103.
+\c@lstlisting=\count336
+Package hyperref Info: Link coloring OFF on input line 104.
  (./answerss.out) (./answerss.out)
 \@outlinefile=\write4
+\openout4 = `answerss.out'.
 
-\openout4 = answerss.out
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: luatex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: luatex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -754,886 +702,957 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--146
-[]\T1/lmr/bx/n/10 Note: \T1/lmr/m/n/10 The unique-ness of the MAC ad-dresses used is re-spon-si-bil-ity of the in-di-vid-ual
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
+[]\T1/cmr/bx/n/10 Note: \T1/cmr/m/n/10 The unique-ness of the MAC ad-dresses used is re-spon-si-bil-ity of the in-di-vid-ual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--146
-\T1/lmr/m/n/10 us-ing Os-ti-nato, al-though Os-ti-nato seems to pro-vide ran-dom MAC ad-dress which are
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
+\T1/cmr/m/n/10 us-ing Os-ti-nato, al-though Os-ti-nato seems to pro-vide ran-dom MAC ad-dress which are
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--208
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--208
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--214
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--214
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--228
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--228
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--232
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--232
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 237--239
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 237--239
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 [2]
 <data/q2.1-stream-settings.png, id=20, 827.09pt x 514.92375pt>
 File: data/q2.1-stream-settings.png Graphic file (type png)
 <use data/q2.1-stream-settings.png>
-Package luatex.def Info: data/q2.1-stream-settings.png  used on input line 251.
-(luatex.def)             Requested size: 284.52756pt x 177.13817pt.
- [3<./data/q2.1-stream-settings.png>] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+Package pdftex.def Info: data/q2.1-stream-settings.png  used on input line 252.
+(pdftex.def)             Requested size: 284.52756pt x 177.13817pt.
+ [3 <./data/q2.1-stream-settings.png (PNG copy)>] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 315.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 316.
 
-Overfull \hbox (25.0pt too wide) in paragraph at lines 315--315
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 316--316
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 315.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [4]
-<data/q3-stream-settings.png, id=51, 864.22874pt x 593.21625pt>
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 316.
+(/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) [4{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<data/q3-stream-settings.png, id=49, 864.22874pt x 593.21625pt>
 File: data/q3-stream-settings.png Graphic file (type png)
 <use data/q3-stream-settings.png>
-Package luatex.def Info: data/q3-stream-settings.png  used on input line 337.
-(luatex.def)             Requested size: 284.52756pt x 195.30032pt.
+Package pdftex.def Info: data/q3-stream-settings.png  used on input line 338.
+(pdftex.def)             Requested size: 284.52756pt x 195.30032pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--382
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--382
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--384
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--384
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--386
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 385--387
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--386
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 385--387
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--390
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--390
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--396
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 395--397
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--396
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 395--397
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--398
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--398
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--400
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--400
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--404
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 403--405
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--404
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 403--405
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 411--413
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 411--413
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--416
-[]|\T1/lmr/m/n/10 Echo (ping) re-quest
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
+[]|\T1/cmr/m/n/10 Echo (ping) re-quest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--416
-\T1/lmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
+\T1/cmr/m/n/10 id=0x04d2, seq=0/0, ttl=127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--418
-[]|\T1/lmr/m/n/10 Echo (ping) re-ply id=0x04d2,
+Underfull \hbox (badness 10000) in paragraph at lines 417--419
+[]|\T1/cmr/m/n/10 Echo (ping) re-ply id=0x04d2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--418
-\T1/lmr/m/n/10 seq=0/0, ttl=64 (re-quest in
+Underfull \hbox (badness 10000) in paragraph at lines 417--419
+\T1/cmr/m/n/10 seq=0/0, ttl=64 (re-quest in
  []
 
-[5<./data/q3-stream-settings.png>] [6] [7]
-Overfull \hbox (25.0pt too wide) in paragraph at lines 467--467
+[5 <./data/q3-stream-settings.png (PNG copy)>] [6] [7]
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 468--468
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--467
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
 
  []
 
-<data/q4.1-packets-under-inspection.png, id=71, 1025.8325pt x 30.1125pt>
+<data/q4.1-packets-under-inspection.png, id=68, 1025.8325pt x 30.1125pt>
 File: data/q4.1-packets-under-inspection.png Graphic file (type png)
 <use data/q4.1-packets-under-inspection.png>
-Package luatex.def Info: data/q4.1-packets-under-inspection.png  used on input line 487.
-(luatex.def)             Requested size: 455.24408pt x 13.36348pt.
-<data/q4.1-request-info.png, id=72, 739.76375pt x 330.23375pt>
+Package pdftex.def Info: data/q4.1-packets-under-inspection.png  used on input line 488.
+(pdftex.def)             Requested size: 455.24408pt x 13.36348pt.
+<data/q4.1-request-info.png, id=69, 739.76375pt x 330.23375pt>
 File: data/q4.1-request-info.png Graphic file (type png)
 <use data/q4.1-request-info.png>
-Package luatex.def Info: data/q4.1-request-info.png  used on input line 497.
-(luatex.def)             Requested size: 455.24408pt x 203.22607pt.
-[8<./data/q4.1-packets-under-inspection.png><./data/q4.1-request-info.png>]
-<data/q4.2-ethernet-diagram.png, id=89, 194.76765pt x 59.7432pt>
+Package pdftex.def Info: data/q4.1-request-info.png  used on input line 498.
+(pdftex.def)             Requested size: 455.24408pt x 203.22607pt.
+[8 <./data/q4.1-packets-under-inspection.png (PNG copy)> <./data/q4.1-request-info.png (PNG copy)>]
+<data/q4.2-ethernet-diagram.png, id=86, 194.76765pt x 59.7432pt>
 File: data/q4.2-ethernet-diagram.png Graphic file (type png)
 <use data/q4.2-ethernet-diagram.png>
-Package luatex.def Info: data/q4.2-ethernet-diagram.png  used on input line 512.
-(luatex.def)             Requested size: 455.24408pt x 139.6535pt.
+Package pdftex.def Info: data/q4.2-ethernet-diagram.png  used on input line 513.
+(pdftex.def)             Requested size: 455.24408pt x 139.6535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--523
-[]\T1/lmr/bx/n/10 Note: \T1/lmr/m/n/10 There is a mis-take in the graphic. ``CR-C/FSC'' should be ``CR-C/FCS'' and
+Underfull \hbox (badness 10000) in paragraph at lines 520--524
+[]\T1/cmr/bx/n/10 Note: \T1/cmr/m/n/10 There is a mis-take in the graphic. ``CR-C/FSC'' should be ``CR-C/FCS'' and ``FSC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--559
-[]\T1/lmr/bx/n/10 Note: \T1/lmr/m/n/10 In the case when there is no 802.1Q header, the to-tal header and pay-load lengths
+Underfull \hbox (badness 10000) in paragraph at lines 551--560
+[]\T1/cmr/bx/n/10 Note: \T1/cmr/m/n/10 In the case when there is no 802.1Q header, the to-tal header and pay-load lengths
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--559
-\T1/lmr/m/n/10 add up to 46. This is be-cause the header length is 0 and the pay-load has a min-i-mum
+Underfull \hbox (badness 10000) in paragraph at lines 551--560
+\T1/cmr/m/n/10 add up to 46. This is be-cause the header length is 0 and the pay-load has a min-i-mum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--559
-\T1/lmr/m/n/10 length of 46. In the other case \T1/lmr/m/it/10 i.e. \T1/lmr/m/n/10 when there is a 802.1Q header, the to-tal header and
+Underfull \hbox (badness 10000) in paragraph at lines 551--560
+\T1/cmr/m/n/10 length of 46. In the other case \T1/cmr/m/it/10 i.e. \T1/cmr/m/n/10 when there is a 802.1Q header, the to-tal header and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--559
-\T1/lmr/m/n/10 pay-load lengths also add up to 46. This is be-cause the header length is 4 and the pay-
+Underfull \hbox (badness 10000) in paragraph at lines 551--560
+\T1/cmr/m/n/10 pay-load lengths also add up to 46. This is be-cause the header length is 4 and the pay-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--559
-\T1/lmr/m/n/10 load length has a new min-i-mum of 42, since 4 have al-ready been used by 802.1Q header.
+Underfull \hbox (badness 10000) in paragraph at lines 551--560
+\T1/cmr/m/n/10 load length has a new min-i-mum of 42, since 4 have al-ready been used by 802.1Q header.
  []
 
-[9<./data/q4.2-ethernet-diagram.png>]
-<data/q4.3-ethernet-header.png, id=101, 737.75626pt x 104.39pt>
+[9 <./data/q4.2-ethernet-diagram.png>]
+<data/q4.3-ethernet-header.png, id=97, 737.75626pt x 104.39pt>
 File: data/q4.3-ethernet-header.png Graphic file (type png)
 <use data/q4.3-ethernet-header.png>
-Package luatex.def Info: data/q4.3-ethernet-header.png  used on input line 576.
-(luatex.def)             Requested size: 398.33858pt x 56.36337pt.
- [10<./data/q4.3-ethernet-header.png>]
-<data/q4.5-device-group-config.png, id=112, 909.3975pt x 331.2375pt>
+Package pdftex.def Info: data/q4.3-ethernet-header.png  used on input line 577.
+(pdftex.def)             Requested size: 398.33858pt x 56.36337pt.
+ [10 <./data/q4.3-ethernet-header.png (PNG copy)>]
+<data/q4.5-device-group-config.png, id=107, 909.3975pt x 331.2375pt>
 File: data/q4.5-device-group-config.png Graphic file (type png)
 <use data/q4.5-device-group-config.png>
-Package luatex.def Info: data/q4.5-device-group-config.png  used on input line 630.
-(luatex.def)             Requested size: 398.33858pt x 145.09294pt.
+Package pdftex.def Info: data/q4.5-device-group-config.png  used on input line 631.
+(pdftex.def)             Requested size: 398.33858pt x 145.09294pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--639
-[]\T1/lmr/bx/n/10 Note: \T1/lmr/m/n/10 Since the de-vice group con-tains as sin-gle de-vice the base MAC ad-dress \T1/lmr/m/it/10 i.e.
+Underfull \hbox (badness 10000) in paragraph at lines 636--640
+[]\T1/cmr/bx/n/10 Note: \T1/cmr/m/n/10 Since the de-vice group con-tains as sin-gle de-vice the base MAC ad-dress \T1/cmr/m/it/10 i.e.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--651
-[]\T1/lmr/bx/n/10 Note: \T1/lmr/m/n/10 As-sum-ing that in the orig-i-nal ques-tion, 5.4 and 5.5 where meant to be 4.4 and
+Underfull \hbox (badness 10000) in paragraph at lines 649--652
+[]\T1/cmr/bx/n/10 Note: \T1/cmr/m/n/10 As-sum-ing that in the orig-i-nal ques-tion, 5.4 and 5.5 where meant to be 4.4 and
  []
 
 
-Overfull \hbox (3.35251pt too wide) in paragraph at lines 653--657
-[]\T1/lmr/m/n/10 As ex-pected, the MAC ad-dress of the vir-tual de-vice is iden-ti-cal to the source MAC Ad-dress in the packet. 
+Overfull \hbox (3.23679pt too wide) in paragraph at lines 654--658
+[]\T1/cmr/m/n/10 As ex-pected, the MAC ad-dress of the vir-tual de-vice is iden-ti-cal to the source MAC Ad-dress in the packet. 
  []
 
 
-Overfull \hbox (10.3228pt too wide) in paragraph at lines 668--676
-\T1/lmr/m/n/10 the Eth-er-net frame con-tains. The Ether-Type in the frame of in-ter-est is set to \T1/lmtt/m/n/10 0x0800\T1/lmr/m/n/10 , see Fig-ure []6[]. \T1/lmtt/m/n/10 0x0800 
+Overfull \hbox (10.2073pt too wide) in paragraph at lines 669--677
+\T1/cmr/m/n/10 the Eth-er-net frame con-tains. The Ether-Type in the frame of in-ter-est is set to \T1/cmtt/m/n/10 0x0800\T1/cmr/m/n/10 , see Fig-ure []6[]. \T1/cmtt/m/n/10 0x0800 
  []
 
-[11<./data/q4.5-device-group-config.png>]
-Overfull \hbox (5.79218pt too wide) in paragraph at lines 688--688
-[]\T1/lmr/m/n/10 com-pare the source ad-dress and the des-ti-na-tion ad-dress with what you have set up in the stream named ``ICMP 
+[11 <./data/q4.5-device-group-config.png (PNG copy)>]
+Overfull \hbox (4.28595pt too wide) in paragraph at lines 689--689
+[]\T1/cmr/m/n/10 compare the source ad-dress and the des-ti-na-tion ad-dress with what you have set up in the stream named ``ICMP 
  []
 
-<data/q4.8-ip-header.png, id=122, 737.75626pt x 253.94875pt>
+<data/q4.8-ip-header.png, id=115, 737.75626pt x 253.94875pt>
 File: data/q4.8-ip-header.png Graphic file (type png)
 <use data/q4.8-ip-header.png>
-Package luatex.def Info: data/q4.8-ip-header.png  used on input line 693.
-(luatex.def)             Requested size: 398.33858pt x 137.11478pt.
-<data/q4.8-stream-config.png, id=124, 831.105pt x 499.8675pt>
+Package pdftex.def Info: data/q4.8-ip-header.png  used on input line 694.
+(pdftex.def)             Requested size: 398.33858pt x 137.11478pt.
+<data/q4.8-stream-config.png, id=117, 831.105pt x 499.8675pt>
 File: data/q4.8-stream-config.png Graphic file (type png)
 <use data/q4.8-stream-config.png>
-Package luatex.def Info: data/q4.8-stream-config.png  used on input line 708.
-(luatex.def)             Requested size: 398.33858pt x 239.58281pt.
-[12<./data/q4.8-ip-header.png>]
-<data/q5-capture1.png, id=132, 942.52126pt x 507.8975pt>
+Package pdftex.def Info: data/q4.8-stream-config.png  used on input line 709.
+(pdftex.def)             Requested size: 398.33858pt x 239.58281pt.
+[12 <./data/q4.8-ip-header.png (PNG copy)>]
+<data/q5-capture1.png, id=124, 942.52126pt x 507.8975pt>
 File: data/q5-capture1.png Graphic file (type png)
 <use data/q5-capture1.png>
-Package luatex.def Info: data/q5-capture1.png  used on input line 730.
-(luatex.def)             Requested size: 398.33858pt x 214.65622pt.
-<data/q5-capture2.png, id=133, 945.5325pt x 507.8975pt>
+Package pdftex.def Info: data/q5-capture1.png  used on input line 731.
+(pdftex.def)             Requested size: 398.33858pt x 214.65622pt.
+<data/q5-capture2.png, id=126, 945.5325pt x 507.8975pt>
 File: data/q5-capture2.png Graphic file (type png)
 <use data/q5-capture2.png>
-Package luatex.def Info: data/q5-capture2.png  used on input line 737.
-(luatex.def)             Requested size: 398.33858pt x 213.97424pt.
- [13<./data/q4.8-stream-config.png>]
-<data/q5-capture3.png, id=140, 947.54pt x 519.9425pt>
+Package pdftex.def Info: data/q5-capture2.png  used on input line 738.
+(pdftex.def)             Requested size: 398.33858pt x 213.97424pt.
+ [13 <./data/q4.8-stream-config.png (PNG copy)>]
+<data/q5-capture3.png, id=133, 947.54pt x 519.9425pt>
 File: data/q5-capture3.png Graphic file (type png)
 <use data/q5-capture3.png>
-Package luatex.def Info: data/q5-capture3.png  used on input line 744.
-(luatex.def)             Requested size: 398.33858pt x 218.58064pt.
-<data/q5-capture4.png, id=141, 944.52875pt x 512.91624pt>
+Package pdftex.def Info: data/q5-capture3.png  used on input line 745.
+(pdftex.def)             Requested size: 398.33858pt x 218.58064pt.
+<data/q5-capture4.png, id=134, 944.52875pt x 512.91624pt>
 File: data/q5-capture4.png Graphic file (type png)
 <use data/q5-capture4.png>
-Package luatex.def Info: data/q5-capture4.png  used on input line 751.
-(luatex.def)             Requested size: 398.33858pt x 216.31557pt.
- [14<./data/q5-capture1.png><./data/q5-capture2.png>]
-Overfull \hbox (22.90659pt too wide) in paragraph at lines 759--764
-[]\T1/lmr/m/n/10 All we have to do is no-tice that the ad-dresses in use are From Fig-ure []10[] it can be de-duced that \T1/lmtt/m/n/10 192.168.0.10 
+Package pdftex.def Info: data/q5-capture4.png  used on input line 752.
+(pdftex.def)             Requested size: 398.33858pt x 216.31557pt.
+ [14 <./data/q5-capture1.png> <./data/q5-capture2.png>]
+Overfull \hbox (22.78757pt too wide) in paragraph at lines 760--765
+[]\T1/cmr/m/n/10 All we have to do is no-tice that the ad-dresses in use are From Fig-ure []10[] it can be de-duced that \T1/cmtt/m/n/10 192.168.0.10 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--777
-[]\T1/lmr/bx/n/10 Note: \T1/lmr/m/n/10 All the cap-tures in Fig-ures []10[], []11[], []12[] & []13[] were made over Hub1 $\OMS/cmsy/m/n/10 $$ \T1/lmr/m/n/10 alpine-1.
+Underfull \hbox (badness 10000) in paragraph at lines 766--778
+[]\T1/cmr/bx/n/10 Note: \T1/cmr/m/n/10 All the cap-tures in Fig-ures []10[], []11[], []12[] & []13[] were made over Hub1 $\OMS/cmsy/m/n/10 $$ \T1/cmr/m/n/10 alpine-1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--777
-\T1/lmr/m/n/10 This ex-poses the na-ture of hubs as net-work-ing de-vices. Hubs do not keep track of any
+Underfull \hbox (badness 10000) in paragraph at lines 766--778
+\T1/cmr/m/n/10 This ex-poses the na-ture of hubs as net-work-ing de-vices. Hubs do not keep track of any
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--777
-\T1/lmr/m/n/10 form source and des-ti-na-tion. Hubs take a broad stroke ap-proach and re-play any com-mu-
+Underfull \hbox (badness 10000) in paragraph at lines 766--778
+\T1/cmr/m/n/10 form source and des-ti-na-tion. Hubs take a broad stroke ap-proach and re-play any com-mu-
  []
 
-[15<./data/q5-capture3.png><./data/q5-capture4.png>]
-<data/q6-phase2-switch-to-alpine2-part1.png, id=165, 946.53625pt x 484.81125pt>
+[15 <./data/q5-capture3.png> <./data/q5-capture4.png>]
+<data/q6-phase2-switch-to-alpine2-part1.png, id=156, 946.53625pt x 484.81125pt>
 File: data/q6-phase2-switch-to-alpine2-part1.png Graphic file (type png)
 <use data/q6-phase2-switch-to-alpine2-part1.png>
-Package luatex.def Info: data/q6-phase2-switch-to-alpine2-part1.png  used on input line 793.
-(luatex.def)             Requested size: 398.33858pt x 204.0262pt.
-<data/q6-phase2-switch-to-alpine2-part2.png, id=166, 944.52875pt x 487.8225pt>
+Package pdftex.def Info: data/q6-phase2-switch-to-alpine2-part1.png  used on input line 794.
+(pdftex.def)             Requested size: 398.33858pt x 204.0262pt.
+<data/q6-phase2-switch-to-alpine2-part2.png, id=157, 944.52875pt x 487.8225pt>
 File: data/q6-phase2-switch-to-alpine2-part2.png Graphic file (type png)
 <use data/q6-phase2-switch-to-alpine2-part2.png>
-Package luatex.def Info: data/q6-phase2-switch-to-alpine2-part2.png  used on input line 800.
-(luatex.def)             Requested size: 398.33858pt x 205.73262pt.
- [16<./data/q6-phase2-switch-to-alpine2-part1.png>]
-<data/q6-phase2-switch-to-alpine4-part1.png, id=177, 944.52875pt x 484.81125pt>
+Package pdftex.def Info: data/q6-phase2-switch-to-alpine2-part2.png  used on input line 801.
+(pdftex.def)             Requested size: 398.33858pt x 205.73262pt.
+ [16 <./data/q6-phase2-switch-to-alpine2-part1.png>]
+<data/q6-phase2-switch-to-alpine4-part1.png, id=168, 944.52875pt x 484.81125pt>
 File: data/q6-phase2-switch-to-alpine4-part1.png Graphic file (type png)
 <use data/q6-phase2-switch-to-alpine4-part1.png>
-Package luatex.def Info: data/q6-phase2-switch-to-alpine4-part1.png  used on input line 825.
-(luatex.def)             Requested size: 398.33858pt x 204.46266pt.
-<data/q6-phase2-switch-to-alpine4-part2.png, id=178, 947.54pt x 484.81125pt>
+Package pdftex.def Info: data/q6-phase2-switch-to-alpine4-part1.png  used on input line 826.
+(pdftex.def)             Requested size: 398.33858pt x 204.46266pt.
+<data/q6-phase2-switch-to-alpine4-part2.png, id=169, 947.54pt x 484.81125pt>
 File: data/q6-phase2-switch-to-alpine4-part2.png Graphic file (type png)
 <use data/q6-phase2-switch-to-alpine4-part2.png>
-Package luatex.def Info: data/q6-phase2-switch-to-alpine4-part2.png  used on input line 832.
-(luatex.def)             Requested size: 398.33858pt x 203.81166pt.
- [17<./data/q6-phase2-switch-to-alpine2-part2.png>] [18<./data/q6-phase2-switch-to-alpine4-part1.png><./data/q6-phase2-switch-to-alpine4-part2.png>]
-\width=\dimen289
-\height=\dimen290
-\depth=\dimen291
-\totalheight=\dimen292
-\width=\dimen293
-\height=\dimen294
-\depth=\dimen295
-\totalheight=\dimen296
-\width=\dimen297
-\height=\dimen298
-\depth=\dimen299
-\totalheight=\dimen300
-\width=\dimen301
-\height=\dimen302
-\depth=\dimen303
-\totalheight=\dimen304
-\width=\dimen305
-\height=\dimen306
-\depth=\dimen307
-\totalheight=\dimen308
-\width=\dimen309
-\height=\dimen310
-\depth=\dimen311
-\totalheight=\dimen312
-\width=\dimen313
-\height=\dimen314
-\depth=\dimen315
-\totalheight=\dimen316
-\width=\dimen317
-\height=\dimen318
-\depth=\dimen319
-\totalheight=\dimen320
-\width=\dimen321
-\height=\dimen322
-\depth=\dimen323
-\totalheight=\dimen324
-\width=\dimen325
-\height=\dimen326
-\depth=\dimen327
-\totalheight=\dimen328
-\width=\dimen329
-\height=\dimen330
-\depth=\dimen331
-\totalheight=\dimen332
-\width=\dimen333
-\height=\dimen334
-\depth=\dimen335
-\totalheight=\dimen336
-\width=\dimen337
-\height=\dimen338
-\depth=\dimen339
-\totalheight=\dimen340
-\width=\dimen341
-\height=\dimen342
-\depth=\dimen343
-\totalheight=\dimen344
-\width=\dimen345
-\height=\dimen346
-\depth=\dimen347
-\totalheight=\dimen348
-\width=\dimen349
-\height=\dimen350
-\depth=\dimen351
-\totalheight=\dimen352
-\width=\dimen353
-\height=\dimen354
-\depth=\dimen355
-\totalheight=\dimen356
-\width=\dimen357
-\height=\dimen358
-\depth=\dimen359
-\totalheight=\dimen360
-\width=\dimen361
-\height=\dimen362
-\depth=\dimen363
-\totalheight=\dimen364
-\width=\dimen365
-\height=\dimen366
-\depth=\dimen367
-\totalheight=\dimen368
-\width=\dimen369
-\height=\dimen370
-\depth=\dimen371
-\totalheight=\dimen372
-\width=\dimen373
-\height=\dimen374
-\depth=\dimen375
-\totalheight=\dimen376
-\width=\dimen377
-\height=\dimen378
-\depth=\dimen379
-\totalheight=\dimen380
-\width=\dimen381
-\height=\dimen382
-\depth=\dimen383
-\totalheight=\dimen384
-\width=\dimen385
-\height=\dimen386
-\depth=\dimen387
-\totalheight=\dimen388
-\width=\dimen389
-\height=\dimen390
-\depth=\dimen391
-\totalheight=\dimen392
-\width=\dimen393
-\height=\dimen394
-\depth=\dimen395
-\totalheight=\dimen396
-\width=\dimen397
-\height=\dimen398
-\depth=\dimen399
-\totalheight=\dimen400
-\width=\dimen401
-\height=\dimen402
-\depth=\dimen403
-\totalheight=\dimen404
-\width=\dimen405
-\height=\dimen406
-\depth=\dimen407
-\totalheight=\dimen408
-\width=\dimen409
-\height=\dimen410
-\depth=\dimen411
-\totalheight=\dimen412
-\width=\dimen413
-\height=\dimen414
-\depth=\dimen415
-\totalheight=\dimen416
-\width=\dimen417
-\height=\dimen418
-\depth=\dimen419
-\totalheight=\dimen420
-\width=\dimen421
-\height=\dimen422
-\depth=\dimen423
-\totalheight=\dimen424
-\width=\dimen425
-\height=\dimen426
-\depth=\dimen427
-\totalheight=\dimen428
-\width=\dimen429
-\height=\dimen430
-\depth=\dimen431
-\totalheight=\dimen432
-\width=\dimen433
-\height=\dimen434
-\depth=\dimen435
-\totalheight=\dimen436
-\width=\dimen437
-\height=\dimen438
-\depth=\dimen439
-\totalheight=\dimen440
-\width=\dimen441
-\height=\dimen442
-\depth=\dimen443
-\totalheight=\dimen444
-\width=\dimen445
-\height=\dimen446
-\depth=\dimen447
-\totalheight=\dimen448
-\width=\dimen449
-\height=\dimen450
-\depth=\dimen451
-\totalheight=\dimen452
-\width=\dimen453
-\height=\dimen454
-\depth=\dimen455
-\totalheight=\dimen456
-\width=\dimen457
-\height=\dimen458
-\depth=\dimen459
-\totalheight=\dimen460
-\width=\dimen461
-\height=\dimen462
-\depth=\dimen463
-\totalheight=\dimen464
-\width=\dimen465
-\height=\dimen466
-\depth=\dimen467
-\totalheight=\dimen468
-\width=\dimen469
-\height=\dimen470
-\depth=\dimen471
-\totalheight=\dimen472
-\width=\dimen473
-\height=\dimen474
-\depth=\dimen475
-\totalheight=\dimen476
-\width=\dimen477
-\height=\dimen478
-\depth=\dimen479
-\totalheight=\dimen480
-\width=\dimen481
-\height=\dimen482
-\depth=\dimen483
-\totalheight=\dimen484
-\width=\dimen485
-\height=\dimen486
-\depth=\dimen487
-\totalheight=\dimen488
-
-Underfull \hbox (badness 10000) in paragraph at lines 939--939
-[]\T1/lmr/bx/n/9 DSCP \T1/lmr/m/n/9 = Dif-fer-en-ti-ated Ser-
- []
-
+Package pdftex.def Info: data/q6-phase2-switch-to-alpine4-part2.png  used on input line 833.
+(pdftex.def)             Requested size: 398.33858pt x 203.81166pt.
+ [17 <./data/q6-phase2-switch-to-alpine2-part2.png>] [18 <./data/q6-phase2-switch-to-alpine4-part1.png> <./data/q6-phase2-switch-to-alpine4-part2.png>]
+\width=\dimen290
+\height=\dimen291
+\depth=\dimen292
+\totalheight=\dimen293
+\width=\dimen294
+\height=\dimen295
+\depth=\dimen296
+\totalheight=\dimen297
+\width=\dimen298
+\height=\dimen299
+\depth=\dimen300
+\totalheight=\dimen301
+\width=\dimen302
+\height=\dimen303
+\depth=\dimen304
+\totalheight=\dimen305
+\width=\dimen306
+\height=\dimen307
+\depth=\dimen308
+\totalheight=\dimen309
+\width=\dimen310
+\height=\dimen311
+\depth=\dimen312
+\totalheight=\dimen313
+\width=\dimen314
+\height=\dimen315
+\depth=\dimen316
+\totalheight=\dimen317
+\width=\dimen318
+\height=\dimen319
+\depth=\dimen320
+\totalheight=\dimen321
+\width=\dimen322
+\height=\dimen323
+\depth=\dimen324
+\totalheight=\dimen325
+\width=\dimen326
+\height=\dimen327
+\depth=\dimen328
+\totalheight=\dimen329
+\width=\dimen330
+\height=\dimen331
+\depth=\dimen332
+\totalheight=\dimen333
+\width=\dimen334
+\height=\dimen335
+\depth=\dimen336
+\totalheight=\dimen337
+\width=\dimen338
+\height=\dimen339
+\depth=\dimen340
+\totalheight=\dimen341
+\width=\dimen342
+\height=\dimen343
+\depth=\dimen344
+\totalheight=\dimen345
+\width=\dimen346
+\height=\dimen347
+\depth=\dimen348
+\totalheight=\dimen349
+\width=\dimen350
+\height=\dimen351
+\depth=\dimen352
+\totalheight=\dimen353
+\width=\dimen354
+\height=\dimen355
+\depth=\dimen356
+\totalheight=\dimen357
+\width=\dimen358
+\height=\dimen359
+\depth=\dimen360
+\totalheight=\dimen361
+\width=\dimen362
+\height=\dimen363
+\depth=\dimen364
+\totalheight=\dimen365
+\width=\dimen366
+\height=\dimen367
+\depth=\dimen368
+\totalheight=\dimen369
+\width=\dimen370
+\height=\dimen371
+\depth=\dimen372
+\totalheight=\dimen373
+\width=\dimen374
+\height=\dimen375
+\depth=\dimen376
+\totalheight=\dimen377
+\width=\dimen378
+\height=\dimen379
+\depth=\dimen380
+\totalheight=\dimen381
+\width=\dimen382
+\height=\dimen383
+\depth=\dimen384
+\totalheight=\dimen385
+\width=\dimen386
+\height=\dimen387
+\depth=\dimen388
+\totalheight=\dimen389
+\width=\dimen390
+\height=\dimen391
+\depth=\dimen392
+\totalheight=\dimen393
+\width=\dimen394
+\height=\dimen395
+\depth=\dimen396
+\totalheight=\dimen397
+\width=\dimen398
+\height=\dimen399
+\depth=\dimen400
+\totalheight=\dimen401
+\width=\dimen402
+\height=\dimen403
+\depth=\dimen404
+\totalheight=\dimen405
+\width=\dimen406
+\height=\dimen407
+\depth=\dimen408
+\totalheight=\dimen409
+\width=\dimen410
+\height=\dimen411
+\depth=\dimen412
+\totalheight=\dimen413
+\width=\dimen414
+\height=\dimen415
+\depth=\dimen416
+\totalheight=\dimen417
+\width=\dimen418
+\height=\dimen419
+\depth=\dimen420
+\totalheight=\dimen421
+\width=\dimen422
+\height=\dimen423
+\depth=\dimen424
+\totalheight=\dimen425
+\width=\dimen426
+\height=\dimen427
+\depth=\dimen428
+\totalheight=\dimen429
+\width=\dimen430
+\height=\dimen431
+\depth=\dimen432
+\totalheight=\dimen433
+\width=\dimen434
+\height=\dimen435
+\depth=\dimen436
+\totalheight=\dimen437
+\width=\dimen438
+\height=\dimen439
+\depth=\dimen440
+\totalheight=\dimen441
+\width=\dimen442
+\height=\dimen443
+\depth=\dimen444
+\totalheight=\dimen445
+\width=\dimen446
+\height=\dimen447
+\depth=\dimen448
+\totalheight=\dimen449
+\width=\dimen450
+\height=\dimen451
+\depth=\dimen452
+\totalheight=\dimen453
+\width=\dimen454
+\height=\dimen455
+\depth=\dimen456
+\totalheight=\dimen457
+\width=\dimen458
+\height=\dimen459
+\depth=\dimen460
+\totalheight=\dimen461
+\width=\dimen462
+\height=\dimen463
+\depth=\dimen464
+\totalheight=\dimen465
+\width=\dimen466
+\height=\dimen467
+\depth=\dimen468
+\totalheight=\dimen469
+\width=\dimen470
+\height=\dimen471
+\depth=\dimen472
+\totalheight=\dimen473
+\width=\dimen474
+\height=\dimen475
+\depth=\dimen476
+\totalheight=\dimen477
+\width=\dimen478
+\height=\dimen479
+\depth=\dimen480
+\totalheight=\dimen481
+\width=\dimen482
+\height=\dimen483
+\depth=\dimen484
+\totalheight=\dimen485
+\width=\dimen486
+\height=\dimen487
+\depth=\dimen488
+\totalheight=\dimen489
 
 Underfull \hbox (badness 10000) in paragraph at lines 940--940
-[]\T1/lmr/bx/n/9 ECN \T1/lmr/m/n/9 = Ex-plicit Con-ges-tion
+[]\T1/cmr/bx/n/9 DSCP \T1/cmr/m/n/9 = Dif-fer-en-ti-ated Ser-
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 932--942
+Underfull \hbox (badness 10000) in paragraph at lines 941--941
+[]\T1/cmr/bx/n/9 ECN \T1/cmr/m/n/9 = Ex-plicit Con-ges-tion
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 933--943
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--954
-[]\T1/lmr/bx/n/10 Note: \T1/lmr/m/n/10 The bits marked as ``Di-a-gram Padding'' in Fig-ure []18[] are \T1/lmr/m/it/10 only \T1/lmr/m/n/10 present to al-
+Underfull \hbox (badness 10000) in paragraph at lines 948--955
+[]\T1/cmr/bx/n/10 Note: \T1/cmr/m/n/10 The bits marked as ``Di-a-gram Padding'' in Fig-ure []18[] are \T1/cmr/m/it/10 only \T1/cmr/m/n/10 present to al-low for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--954
-\T1/lmr/m/n/10 low for a prop-erly par-ti-tioned di-a-gram, they are \T1/lmr/m/it/10 not \T1/lmr/m/n/10 present ``on the wire'', \T1/lmr/m/it/10 i.e. \T1/lmr/m/n/10 all the
+Underfull \hbox (badness 10000) in paragraph at lines 948--955
+\T1/cmr/m/n/10 a prop-erly par-ti-tioned di-a-gram, they are \T1/cmr/m/it/10 not \T1/cmr/m/n/10 present ``on the wire'', \T1/cmr/m/it/10 i.e. \T1/cmr/m/n/10 all the fields are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--954
-\T1/lmr/m/n/10 fields are packed. Ad-di-tion-ally, each field is marked with its re-spec-tive bit size (as a
+Underfull \hbox (badness 10000) in paragraph at lines 948--955
+\T1/cmr/m/n/10 packed. Ad-di-tion-ally, each field is marked with its re-spec-tive bit size (as a sub-script),
  []
 
 [19]
-<data/q9-1msav-throughput.pdf, id=204, 924.45375pt x 876.27374pt>
+<data/q9-1msav-throughput.pdf, id=194, 924.45375pt x 876.27374pt>
 File: data/q9-1msav-throughput.pdf Graphic file (type pdf)
 <use data/q9-1msav-throughput.pdf>
-Package luatex.def Info: data/q9-1msav-throughput.pdf  used on input line 986.
-(luatex.def)             Requested size: 455.24408pt x 431.51723pt.
-<data/q9-1msav-throughput-1loss.pdf, id=205, 924.45375pt x 876.27374pt>
+Package pdftex.def Info: data/q9-1msav-throughput.pdf  used on input line 987.
+(pdftex.def)             Requested size: 455.24408pt x 431.51723pt.
+<data/q9-1msav-throughput-1loss.pdf, id=195, 924.45375pt x 876.27374pt>
 File: data/q9-1msav-throughput-1loss.pdf Graphic file (type pdf)
 <use data/q9-1msav-throughput-1loss.pdf>
-Package luatex.def Info: data/q9-1msav-throughput-1loss.pdf  used on input line 994.
-(luatex.def)             Requested size: 455.24408pt x 431.51723pt.
+Package pdftex.def Info: data/q9-1msav-throughput-1loss.pdf  used on input line 995.
+(pdftex.def)             Requested size: 455.24408pt x 431.51723pt.
  [20]
-<data/q9-1msav-throughput-3loss.pdf, id=218, 924.45375pt x 876.27374pt>
+<data/q9-1msav-throughput-3loss.pdf, id=207, 924.45375pt x 876.27374pt>
 File: data/q9-1msav-throughput-3loss.pdf Graphic file (type pdf)
 <use data/q9-1msav-throughput-3loss.pdf>
-Package luatex.def Info: data/q9-1msav-throughput-3loss.pdf  used on input line 1003.
-(luatex.def)             Requested size: 455.24408pt x 431.51723pt.
- [21<./data/q9-1msav-throughput.pdf>]
-<data/q9-1msav-throughput-5loss.pdf, id=241, 924.45375pt x 876.27374pt>
+Package pdftex.def Info: data/q9-1msav-throughput-3loss.pdf  used on input line 1004.
+(pdftex.def)             Requested size: 455.24408pt x 431.51723pt.
+ [21 <./data/q9-1msav-throughput.pdf>]
+<data/q9-1msav-throughput-5loss.pdf, id=230, 924.45375pt x 876.27374pt>
 File: data/q9-1msav-throughput-5loss.pdf Graphic file (type pdf)
 <use data/q9-1msav-throughput-5loss.pdf>
-Package luatex.def Info: data/q9-1msav-throughput-5loss.pdf  used on input line 1011.
-(luatex.def)             Requested size: 455.24408pt x 431.51723pt.
- [22<./data/q9-1msav-throughput-1loss.pdf>] [23<./data/q9-1msav-throughput-3loss.pdf>] [24<./data/q9-1msav-throughput-5loss.pdf>] [25] (./answerss.aux)
+Package pdftex.def Info: data/q9-1msav-throughput-5loss.pdf  used on input line 1012.
+(pdftex.def)             Requested size: 455.24408pt x 431.51723pt.
+ [22 <./data/q9-1msav-throughput-1loss.pdf>] [23 <./data/q9-1msav-throughput-3loss.pdf>]
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 1026--1026
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1026
+
+ []
+
+[24 <./data/q9-1msav-throughput-5loss.pdf>] [25]
+<data/q9-stats-tcp-lossless.png, id=356, 1095.09125pt x 477.785pt>
+File: data/q9-stats-tcp-lossless.png Graphic file (type png)
+<use data/q9-stats-tcp-lossless.png>
+Package pdftex.def Info: data/q9-stats-tcp-lossless.png  used on input line 1090.
+(pdftex.def)             Requested size: 455.24408pt x 198.61972pt.
+<data/q9-stats-tcp-loss1.png, id=357, 986.68625pt x 469.755pt>
+File: data/q9-stats-tcp-loss1.png Graphic file (type png)
+<use data/q9-stats-tcp-loss1.png>
+Package pdftex.def Info: data/q9-stats-tcp-loss1.png  used on input line 1096.
+(pdftex.def)             Requested size: 455.24408pt x 216.7422pt.
+ [26 <./data/q9-stats-tcp-lossless.png (PNG copy)>]
+<data/q9-stats-tcp-loss3.png, id=369, 1076.02pt x 466.74374pt>
+File: data/q9-stats-tcp-loss3.png Graphic file (type png)
+<use data/q9-stats-tcp-loss3.png>
+Package pdftex.def Info: data/q9-stats-tcp-loss3.png  used on input line 1102.
+(pdftex.def)             Requested size: 455.24408pt x 197.46967pt.
+<data/q9-stats-tcp-loss5.png, id=370, 970.62625pt x 468.75125pt>
+File: data/q9-stats-tcp-loss5.png Graphic file (type png)
+<use data/q9-stats-tcp-loss5.png>
+Package pdftex.def Info: data/q9-stats-tcp-loss5.png  used on input line 1108.
+(pdftex.def)             Requested size: 455.24408pt x 219.85535pt.
+ [27 <./data/q9-stats-tcp-loss1.png (PNG copy)> <./data/q9-stats-tcp-loss3.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1152
+[]\T1/cmr/m/n/10 Throughput gives the true through-put of the wire \T1/cmr/m/it/10 i.e. \T1/cmr/m/n/10 how many raw bytes can be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1159
+\T1/cmr/m/n/10 On the other hand, ef-fec-tive through-put gives the us-able or use-ful through-put of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1159
+\T1/cmr/m/n/10 wire \T1/cmr/m/it/10 i.e. \T1/cmr/m/n/10 how many bytes of in-ter-est to the user (\T1/cmr/m/it/10 e.g. \T1/cmr/m/n/10 a file) can be trans-ferred per
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1159
+\T1/cmr/m/n/10 sec-ond over the wire \T1/cmr/m/it/10 not \T1/cmr/m/n/10 in fac-tor-ing all the bytes used by the un-der-ly-ing trans-port
+ []
+
+[28 <./data/q9-stats-tcp-loss5.png (PNG copy)>]
+<data/ans-q10.1.png, id=383, 1363.0925pt x 67.25125pt>
+File: data/ans-q10.1.png Graphic file (type png)
+<use data/ans-q10.1.png>
+Package pdftex.def Info: data/ans-q10.1.png  used on input line 1187.
+(pdftex.def)             Requested size: 512.1496pt x 25.2684pt.
+<data/ans-q10.4.png, id=384, 1194.4625pt x 52.195pt>
+File: data/ans-q10.4.png Graphic file (type png)
+<use data/ans-q10.4.png>
+Package pdftex.def Info: data/ans-q10.4.png  used on input line 1206.
+(pdftex.def)             Requested size: 512.1496pt x 22.37968pt.
+<data/large-file-alpine-2.png, id=388, 780.9175pt x 166.6225pt>
+File: data/large-file-alpine-2.png Graphic file (type png)
+<use data/large-file-alpine-2.png>
+Package pdftex.def Info: data/large-file-alpine-2.png  used on input line 1231.
+(pdftex.def)             Requested size: 455.24408pt x 97.13434pt.
+<data/alpine-4-received-file.png, id=389, 781.92125pt x 101.37875pt>
+File: data/alpine-4-received-file.png Graphic file (type png)
+<use data/alpine-4-received-file.png>
+Package pdftex.def Info: data/alpine-4-received-file.png  used on input line 1238.
+(pdftex.def)             Requested size: 455.24408pt x 59.024pt.
+ [29 <./data/ans-q10.1.png (PNG copy)> <./data/ans-q10.4.png (PNG copy)>] [30 <./data/large-file-alpine-2.png (PNG copy)> <./data/alpine-4-received-file.png (PNG copy)>] (./answerss.aux)
 Package rerunfilecheck Info: File `answerss.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-)
-
-Here is how much of LuaTeX's memory you used:
- 26854 strings out of 478285
- 125009,1977958 words of node,token memory allocated
- 641 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 12 attribute, 78 glue_spec, 12 attribute_list, 2 write nodes
-   avail lists: 2:3000,3:314,4:1440,5:1399,6:152,7:7616,8:86,9:3678,10:22,11:504
- 45785 multiletter control sequences out of 65536+600000
- 52 fonts using 3266991 bytes
- 100i,21n,128p,473b,1074s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on answerss.pdf (25 pages, 1401397 bytes).
-
-PDF statistics: 380 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+ ) 
+Here is how much of TeX's memory you used:
+ 26124 strings out of 477985
+ 482271 string characters out of 5840059
+ 2225388 words of memory out of 5000000
+ 45713 multiletter control sequences out of 15000+600000
+ 524628 words of font info for 59 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 94i,21n,131p,482b,2228s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on answerss.pdf (30 pages, 2022771 bytes).
+PDF statistics:
+ 520 PDF objects out of 1000 (max. 8388607)
+ 392 compressed objects within 4 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
